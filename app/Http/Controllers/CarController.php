@@ -170,4 +170,5 @@ class CarController extends Controller
         $car->delete();
         return redirect()-> route('cars.index')->with('success', 'Bạn đã xóa thành công');
     }
+    //Tieens paplanw
 }
